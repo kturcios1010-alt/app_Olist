@@ -34,7 +34,7 @@ for nombre in perfiles.index:
                 f"{ACCIONES.get(nombre, '')}")
 
 st.subheader("Visualización de los grupos (PCA)")
-st.image(str(DATOS / "segmentos_pca.png"), use_container_width=True)
+st.image(str(DATOS / "segmentos_pca.png"), width=800)
 st.caption("Las cuentas clave no se separan en el gráfico porque se distinguen por volumen, "
            "y el número de pedidos casi no pesa en los dos primeros componentes.")
 
